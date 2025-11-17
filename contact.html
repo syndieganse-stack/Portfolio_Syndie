@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syndie Ganse - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-brand">Syndie Ganse</a>
+            <ul class="nav-list">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="a_propos.html">À Propos</a></li>
+                <li><a href="experiences.html">Expériences</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-section">
+            <h2>📧 Contactez-moi</h2>
+            <p>
+                N'hésitez pas à me contacter si vous avez des questions, des opportunités professionnelles ou si vous souhaitez en savoir plus sur mon profil. Je suis toujours ouverte aux nouvelles collaborations !
+            </p>
+            <form id="contactForm">
+                <label for="nom">Nom Complet:</label>
+                <input type="text" id="nom" name="nom" value="" required> 
+                
+                <label for="email">Email Professionnel:</label>
+                <input type="email" id="email" name="email" value="" required> 
+                
+                <label for="telephone">Téléphone:</label>
+                <input type="text" id="telephone" name="telephone" value=""> 
+                
+                <label for="message">Votre Message:</label>
+                <textarea id="message" name="message" rows="5" required>
+
+                </textarea>
+                
+                <button type="submit" class="submit-button">Envoyer le Message</button>
+                <p id="messageErreur" style="color: red; margin-top: 10px;"></p>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Syndie Ganse. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>
